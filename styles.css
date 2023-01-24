@@ -3,7 +3,8 @@
 
 :root {
     --primary-color: #0052cc;
-    --dark-gray: #6b7280
+    --dark-gray: #6b7280;
+    --off-white: #F3F4F6;
 }
 
 body {
@@ -63,7 +64,8 @@ hr {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
-    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
 }
 
 .navigation .nav-brand {
@@ -94,6 +96,7 @@ hr {
 }
 
 .hero .hero-heading {
+    text-align: center;
     font-weight: 900;
     padding-top: 1rem;
     color: var(--dark-gray);
@@ -102,4 +105,41 @@ hr {
 .hero .hero-heading .heading-inverted {
     color: var(--primary-color);
 }
+
+
+/* sections */
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+    padding: 2rem;
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
+
+/* footer */
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer .ul {
+    padding-inline-start: 0px;
+}
+
+
 

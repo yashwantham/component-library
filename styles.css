@@ -140,6 +140,7 @@ hr {
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
 }
 
 .footer .link {
